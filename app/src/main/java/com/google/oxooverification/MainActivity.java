@@ -1,8 +1,8 @@
-package com.spagreen.oxooverification;
+package com.google.oxooverification;
 
 import android.os.Bundle;
 
-import com.spagreen.codevarify.AppCompatActivity;
+import com.google.rippleeffects.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.spagreen.codevarify">
+    package="com.google.rippleeffects">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 
@@ -10,8 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".DemoActivity" />
-        <activity android:name=".CustomView"/>
+        <activity android:name="com.google.rippleeffects.DemoActivity" />
+        <activity android:name="com.google.rippleeffects.CustomView"/>
 
     </application>
 

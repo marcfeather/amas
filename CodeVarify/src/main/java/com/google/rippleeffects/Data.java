@@ -1,4 +1,4 @@
-package com.spagreen.codevarify;
+package com.google.rippleeffects;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

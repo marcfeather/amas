@@ -1,4 +1,4 @@
-package com.spagreen.codevarify;
+package com.google.rippleeffects;
 
 import retrofit2.Call;
 import retrofit2.http.Field;

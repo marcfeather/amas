@@ -1,4 +1,4 @@
-package com.spagreen.oxooverification;
+package com.google.oxooverification;
 
 import org.junit.Test;
 

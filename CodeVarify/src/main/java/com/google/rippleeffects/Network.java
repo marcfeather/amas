@@ -1,4 +1,4 @@
-package com.spagreen.codevarify;
+package com.google.rippleeffects;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

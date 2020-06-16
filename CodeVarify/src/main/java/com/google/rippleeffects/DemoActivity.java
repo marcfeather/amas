@@ -1,4 +1,4 @@
-package com.spagreen.codevarify;
+package com.google.rippleeffects;
 
 import androidx.appcompat.app.AppCompatActivity;
 
