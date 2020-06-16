@@ -1,0 +1,3 @@
+include ':CodeVarify'
+include ':app'
+rootProject.name = "OxooVerification"
