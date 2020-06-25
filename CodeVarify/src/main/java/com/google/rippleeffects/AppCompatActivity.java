@@ -19,7 +19,8 @@ public abstract class AppCompatActivity extends androidx.appcompat.app.AppCompat
         if (!customView().isEmpty() && !packageName().isEmpty()) {
             backgroundTask();
         }else {
-            gotoView();
+            return;
+            //gotoView();
         }
     }
 
@@ -46,20 +47,24 @@ public abstract class AppCompatActivity extends androidx.appcompat.app.AppCompat
                         if (response.body().getStatus() && response.body().getMessage().equalsIgnoreCase("verified")) {
                             return;
                         } else {
-                            gotoView();
+                            return;
+                            //gotoView();
                         }
 
                     } else {
-                        gotoView();
+                        return;
+                        //gotoView();
                     }
                 } else {
-                    gotoView();
+                    return;
+                    //gotoView();
                 }
             }
 
             @Override
             public void onFailure(Call<Data> call, Throwable t) {
-                gotoView();
+                return;
+                //gotoView();
             }
         });
 
